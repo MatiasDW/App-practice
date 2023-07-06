@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h2>Últimos Artículos</h2>
+      <hr>
+      <div class="post">
+        <h3><a href="#">Título del primer artículo</a></h3>
+        <p class="meta">Publicado el 28 de Marzo de 2023 por Admin</p>
+        <p>Este es el contenido del primer artículo del blog. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac fringilla urna. Fusce malesuada, mi a bibendum consequat, quam dolor ultrices augue, a eleifend risus est vel odio.</p>
+      </div>
+      <hr>
+      <div class="post">
+        <h3><a href="#">Título del segundo artículo</a></h3>
+        <p class="meta">Publicado el 27 de Marzo de 2023 por Admin</p>
+        <p>Este es el contenido del segundo artículo del blog. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac fringilla urna. Fusce malesuada, mi a bibendum consequat, quam dolor ultrices augue, a eleifend risus est vel odio.</p>
+      </div>
+      <hr>
+      <div class="post">
+        <h3><a href="#">Título del tercer artículo</a></h3>
+        <p class="meta">Publicado el 26 de Marzo de 2023 por Admin</p>
+        <p>Este es el contenido del tercer artículo del blog. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac fringilla urna. Fusce malesuada, mi a bibendum consequat, quam dolor ultrices augue, a eleifend risus est vel odio.</p>
+      </div>
+      <hr>
+    </div>
+    <div class="col-md-4">
+      <div class="sidebar">
+        <h3>Últimas Entradas</h3>
+        <ul class="list-unstyled">
+          <li><a href="#">Título del primer artículo</a></li>
+          <li><a href="#">Título del segundo artículo</a></li>
+          <li><a href="#">Título del tercer artículo</a></li>
+        </ul>
+        <h3>Categorías</h3>
+        <ul class="list-unstyled">
+          <li><a href="#">Categoría 1</a></li>
+          <li><a href="#">Categoría 2</a></li>
+          <li><a href="#">Categoría 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi sitio web de zapatillas</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<h1>Mi sitio web de zapatillas</h1>
+		<nav>
+			<ul>
+				<li><a href="{% url 'inicio' %}">Inicio</a></li>
+				<li><a href="{% url 'sobre-nosotros' %}">Sobre nosotros</a></li>
+				<li><a href="{% url 'precios' %}">Precios</a></li>
+				<li><a href="{% url 'blog' %}">Blog</a></li>
+				<li><a href="{% url 'contacto' %}">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="promesa-valor">
+			<h2>Nuestra promesa única de valor</h2>
+			<p>Aquí puedes incluir una descripción corta y atractiva de lo que tu sitio web ofrece y por qué es único y valioso para tus usuarios.</p>
+			<button>Descargar ebook</button>
+			<form>
+				<label for="email">Suscribirse a nuestro boletín informativo:</label>
+				<input type="email" id="email" name="email">
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
+		<section id="testimonios">
+			<h2>Lo que dicen nuestros clientes</h2>
+			<ul>
+				<li>
+					<blockquote>
+						"Estoy muy contento con mi compra en este sitio web. Las zapatillas son de alta calidad y la atención al cliente es excelente."
+					</blockquote>
+					<cite>John Smith, cliente satisfecho</cite>
+				</li>
+				<li>
+					<blockquote>
+						"Recomiendo este sitio web a todos los amantes de las zapatillas. Tiene una gran selección y precios competitivos."
+					</blockquote>
+					<cite>Jane Doe, cliente satisfecha</cite>
+				</li>
+			</ul>
+		</section>
+		<section id="ultimos-articulos">
+			<h2>Últimos artículos</h2>
+			<ul>
+				<li><a href="#">Cómo elegir las zapatillas perfectas para correr</a></li>
+				<li><a href="#">Las tendencias en zapatillas para este año</a></li>
+				<li><a href="#">Los mejores diseños de zapatillas deportivas</a></li>
+			</ul>
+		</section>
+		<section id="contacto">
+			<h2>Contacto</h2>
+			<form>
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+				<label for="mensaje">Mensaje:</label>
+				<textarea id="mensaje" name="mensaje"></textarea>
+				<button type="submit">Enviar mensaje</button>
+			</form>
+		</section>
+ 
